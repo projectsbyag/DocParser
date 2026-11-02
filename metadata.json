@@ -1,0 +1,6 @@
+{
+  "name": "DocuParse Document Microservice",
+  "description": "High-throughput document extraction microservice on Google Cloud Run v2 with Terraform IaC, Workload Identity Federation, and deterministic schema outputs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

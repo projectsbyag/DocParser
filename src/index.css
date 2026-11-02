@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #fafafa;
+    color: #0a0a0a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
+  }
+
+  code, pre, kbd, samp, .font-mono {
+    font-family: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+@keyframes scanline {
+  0% {
+    top: 0%;
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.9;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+.scanline-laser {
+  animation: scanline 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
